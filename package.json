@@ -36,6 +36,8 @@
     "yarn": ">=1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^8.11.0",
     "prettier": "^2.6.0",
     "typescript": "^4.6.2"
