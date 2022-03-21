@@ -16,7 +16,7 @@ Personal ESLint configuration preferences.
 This config is distributed via [npmjs](https://npmjs.com) and can be installed via
 
 ```sh
-yarn add -D eslint-config-tgallacher
+yarn add -D @tgallacher/eslint-config --registry https://npm.pkg.github.com
 ```
 
 <a id="markdown-usage" name="usage"></a>
