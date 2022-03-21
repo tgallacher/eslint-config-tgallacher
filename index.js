@@ -3,9 +3,9 @@ module.exports = {
     "eslint:recommended",
     "./import",
     // "./javascript",
-    "./typescript",
     "./storybook",
     "./testing",
+    "./typescript",
     // Note: must be last in list
     // Note: This auto configures the eslint-config-prettier too!
     "plugin:prettier/recommended",
