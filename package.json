@@ -6,6 +6,7 @@
   "author": "Tom Gallacher <tgallacher@users.noreply.github.com> (https://tom-gallacher.co.uk)",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint .",
     "release": "np"
   },
   "repository": "tgallacher/eslint-config-tgallacher",
