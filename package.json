@@ -1,18 +1,21 @@
 {
-  "name": "eslint-config-tgallacher",
+  "name": "@tgallacher/eslint-config",
   "description": "tgallacher's ESLint preferences",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "author": "Tom Gallacher <tgallacher@users.noreply.github.com> (https://tom-gallacher.co.uk)",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tgallacher/eslint-config-tgallacher"
+  "scripts": {
+    "release": "np"
   },
+  "repository": "tgallacher/eslint-config-tgallacher",
   "bugs": {
     "url": "https://github.com/tgallacher/eslint-config-tgallacher/issues"
   },
   "homepage": "https://github.com/tgallacher/eslint-config-tgallacher#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -39,6 +42,7 @@
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^8.11.0",
+    "np": "^7.6.1",
     "prettier": "^2.6.0",
     "typescript": "^4.6.2"
   },

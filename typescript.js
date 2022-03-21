@@ -6,7 +6,7 @@ const packageJson = require(packageJsonPath); // eslint-disable-line import/no-d
 // note: Does not support the situation when the `nohoist` option is used
 // @see https://classic.yarnpkg.com/blog/2018/02/15/nohoist/
 const tsconfigPath = Array.isArray(packageJson.workspaces)
-  ? packageJson.workspaces.map(workspacePath =>
+  ? packageJson.workspaces.map((workspacePath) =>
       path.join(process.cwd(), workspacePath, "/tsconfig.json"),
     )
   : "tsconfig.json";
@@ -21,7 +21,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
-      plugins: ["@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"],
+      plugins: ["@typescript-eslint", "eslint-plugin-tsdoc"],
       parserOptions: {
         project: tsconfigPath,
       },
