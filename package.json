@@ -1,7 +1,7 @@
 {
   "name": "@tgallacher/eslint-config",
   "description": "tgallacher's ESLint preferences",
-  "version": "0.1.1-0",
+  "version": "0.1.1-1",
   "main": "index.js",
   "author": "Tom Gallacher <tgallacher@users.noreply.github.com> (https://tom-gallacher.co.uk)",
   "license": "MIT",
